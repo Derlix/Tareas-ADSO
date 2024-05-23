@@ -60,6 +60,7 @@ visitante_1 = Visitante('1', 'Carlos', 0, '', 1)
 lista_visitantes.append(visitante_1)
 
 def contar_visitantes_activos(visitantes):
+    """Hola """
     return sum(visitante.activo for visitante in visitantes)
 
 while opcion != 5:
@@ -92,7 +93,6 @@ while opcion != 5:
     elif opcion == 5:
         with open(os.path.join(ruta, 'animales.json'), 'w') as archivo:
             json.dump([animal.to_dict() for animal in lista_animales], archivo, indent=4)
-        
         with open(os.path.join(ruta, 'visitantes.json'), 'w') as archivo:
             json.dump([visitante.to_dict() for visitante in lista_visitantes], archivo, indent=4)
 
