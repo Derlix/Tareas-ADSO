@@ -1,4 +1,5 @@
 import mysql.connector
+import manejarDB as DB
 from tabulate import tabulate
 
 conexion_db = mysql.connector.connect(
@@ -30,10 +31,9 @@ def mostrar_zoo(conexionDB):
     cursor.execute(query)
     zoologicos = cursor.fetchall()
 
-    # Obtener los nombres de las columnas
     column_names = [desc[0] for desc in cursor.description]
     
-    # Usar tabulate para mostrar los datos
+
     print(tabulate(zoologicos, headers=column_names, tablefmt='pretty'))
 
     cursor.close()
