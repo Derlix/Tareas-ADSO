@@ -6,7 +6,7 @@ import manejo_Obras
 from tkinter import Toplevel, messagebox, ttk
 
 MONGO_TIME_OUT = 1000
-cliente = MongoClient('mongodb+srv://Christian_Arias:mongobaby135@cluster0.uxfae4v.mongodb.net/', serverSelectionTimeoutMS=MONGO_TIME_OUT)
+cliente = MongoClient()
 DB = cliente["teatro_obras"]
 coleccion_actores = DB['actores']
 

@@ -5,7 +5,7 @@ from bson.objectid import ObjectId
 import pymongo.errors
 
 MONGO_TIME_OUT = 1000
-cliente = MongoClient('mongodb+srv://Christian_Arias:mongobaby135@cluster0.uxfae4v.mongodb.net/', serverSelectionTimeoutMS=MONGO_TIME_OUT)
+cliente = MongoClient()
 DB = cliente["teatro_obras"]
 coleccion = DB['obras']
 
