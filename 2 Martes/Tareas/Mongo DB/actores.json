@@ -1,0 +1,53 @@
+[
+    {
+      "nombre_actor": "John Doe",
+      "obra_id": "ObjectId('60d5ec49b44c8f2f3c8e48ab')",
+      "obra_nombre": "Hamlet"
+    },
+    {
+      "nombre_actor": "Jane Smith",
+      "obra_id": "ObjectId('60d5ec49b44c8f2f3c8e48ac')",
+      "obra_nombre": "Macbeth"
+    },
+    {
+      "nombre_actor": "Robert Brown",
+      "obra_id": "ObjectId('60d5ec49b44c8f2f3c8e48ad')",
+      "obra_nombre": "Othello"
+    },
+    {
+      "nombre_actor": "Emily White",
+      "obra_id": "ObjectId('60d5ec49b44c8f2f3c8e48ae')",
+      "obra_nombre": "Romeo y Julieta"
+    },
+    {
+      "nombre_actor": "Michael Johnson",
+      "obra_id": "ObjectId('60d5ec49b44c8f2f3c8e48af')",
+      "obra_nombre": "La Bella y la Bestia"
+    },
+    {
+      "nombre_actor": "Sarah Davis",
+      "obra_id": "ObjectId('60d5ec49b44c8f2f3c8e48b0')",
+      "obra_nombre": "El Fantasma de la Ópera"
+    },
+    {
+      "nombre_actor": "David Wilson",
+      "obra_id": "ObjectId('60d5ec49b44c8f2f3c8e48b1')",
+      "obra_nombre": "Los Miserables"
+    },
+    {
+      "nombre_actor": "Jessica Moore",
+      "obra_id": "ObjectId('60d5ec49b44c8f2f3c8e48ab')",
+      "obra_nombre": "Hamlet"
+    },
+    {
+      "nombre_actor": "Daniel Taylor",
+      "obra_id": "ObjectId('60d5ec49b44c8f2f3c8e48ac')",
+      "obra_nombre": "Macbeth"
+    },
+    {
+      "nombre_actor": "Laura Martinez",
+      "obra_id": "ObjectId('60d5ec49b44c8f2f3c8e48ad')",
+      "obra_nombre": "Othello"
+    }
+  ]
+  
