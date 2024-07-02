@@ -1,0 +1,3 @@
+pip install sqlalchemy
+pip install cryptography
+pip install pymysql
